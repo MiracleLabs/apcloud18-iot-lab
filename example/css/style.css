@@ -1,0 +1,148 @@
+header{
+    background:#000;
+    background-size:cover;
+    padding:0px;
+}
+footer{
+    background:#000;
+    background-size:cover;
+    padding: 10px; 
+    width:100%;
+    position:relative;
+    margin-top:0px;       
+}
+.content-top{
+    float:right;
+    color:#FFF;
+    font-size:16px;
+    padding:15px;
+    font-weight:bold;
+}
+footer p{color:#FFF;margin-top:15px;}
+footer a{color:#FFF;}
+footer a:hover{color:#d9534f !important;text-decoration:none;}
+
+.image{
+    border-radius:10px;
+    
+}
+body{
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/truckbg.jpeg');
+    background-size:cover;
+    font-family: Lato,sans-serif !important;
+}
+
+.content-bottom  {
+    background: #fff;
+     position: relative;
+     height: 250px;
+     margin-top: -10px !important;
+     -webkit-transition:  all 0.3s ease 0s;
+     -moz-transition:  all 0.3s ease 0s;
+     -o-transition:  all 0.3s ease 0s;
+     transition:  all 0.3s ease 0s;
+    overflow: hidden !important;
+ }
+ .content-bottom-alt  {
+     height: 250px;
+ }
+
+.post .content-bottom  {
+    height: auto;
+     padding-bottom: 40px;
+ }
+.content-bottom  h2{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    font-weight:bold;
+ }
+.content-bottom h5{
+    text-align:left;
+    padding-left:15px;
+    padding-right:15px;
+    font-weight:bold;
+}
+
+.bottom  {
+    position: absolute;
+     bottom: 0px;
+     padding-bottom: 36px;
+ }
+
+ 
+ 
+.contain .image {
+  display: block;
+  width: 100%;
+  height: 220px;
+  border-radius:10px;
+ 
+}
+
+.div-hover .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background-color: #2368a0;*/
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  padding:0px;
+  margin:0px;
+  margin-bottom:50px;
+  transition: .5s ease;
+  border-radius:10px;
+}
+
+
+
+.div-hover{
+ 
+    
+}
+.contain{
+  background:#2368a0;
+   color:#FFF;
+ width:100%;
+ padding:0px margin:0px;
+ border-radius:10px;
+}
+.contain h4{
+    text-align:center;
+     color:#FFF;
+     padding:20px;
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+}
+input{
+    border-radius:5px;
+    height:30px;
+    /*width:100%;*/
+    color:#000;
+}
+::-webkit-input-placeholder { /* Chrome */
+/*               color: #000;*/
+/*           }*/
+           :-ms-input-placeholder { /* IE 10+ */
+/*               color: #000;*/
+/*           }*/
+           ::-moz-placeholder { /* Firefox 19+ */
+/*               color: #000;*/
+/*               opacity: 1;*/
+/*           }*/
+           :-moz-placeholder { /* Firefox 4 - 18 */
+/*               color: #000;*/
+/*               opacity: 1;*/
+           }
+
